@@ -33,6 +33,6 @@ def get_password_strength(password):
 
 if __name__ == '__main__':
     print('Программа. Сложность пароля.\n')
-    answer = input('Введите пароль и получите оценку от 1 до 10: ')
+    answer = input('Введите пароль: ')
     password_strength = get_password_strength(answer)
     print('Оценка сложности Вашего пароля: {}'.format(password_strength))
