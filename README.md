@@ -1,7 +1,26 @@
 # Password Strength Calculator
 
-[TODO. There will be project description]
+Скрипт  просит ввести пароль и выдаёт ему оценку от 1 до 10. 1 – очень слабый пароль, 10 – очень крутой.
 
-# Project Goals
+# Как запустить
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+Скрипт требует для своей работы установленного интерпретатора Python версии 3.5
+
+Запуск на Linux:
+
+```#!bash
+python3 password_strength.py
+
+Программа. Сложность пароля.
+
+Введите пароль и получите оценку от 1 до 10: sdfsd
+Оценка сложности Вашего пароля: 1
+```
+
+Запуск на Windows происходит аналогично.
+
+# Цели проекта
+
+Код создан в учебных целях. В рамках учебного курса по веб-разработке - [DEVMAN.org](https://devman.org)
+
+
