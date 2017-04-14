@@ -49,7 +49,7 @@ def get_score_length(password):
 
 def get_password_strength(password):
     score = 0
-    if not password: # Если пароль пуст 0 баллов
+    if not password:
         return score
 
     score += get_score_black_list(password)
